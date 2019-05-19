@@ -1,19 +1,32 @@
 
+/* 1. form labels shoudl be aligned (vertical-aligh) to the top 
+      of associated input elememts 
+  2.  Add padding to each input to provide white space between the input
+      boundaries adn contained text
+  3.  Form elements should be side-by-side; you can float elements if needed.       you should end up with 2 columns of input elements  */
+  
 
 
+/* align the label and inputs to the right */
 label input {
-  vertical-align: right; /* align the label and inputs to the right */
+  vertical-align: right; 
 }
-
 
 /* add padding to each input */
 input {
-  padding: 1.2em;
+  padding: .2em;
 }
 
 /* put details and address side by side */
-
 #details { 
-float: right;
-margin-left: -10;
+float: left;
+margin-right: 3px;
+}
+
+/* wrapper place content in the center of the page******/
+#wrapper {
+  width: 50%;
+  margin: 0 auto;
+  
+
 }
